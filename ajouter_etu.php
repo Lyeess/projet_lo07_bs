@@ -2,7 +2,7 @@
     <head></head>
     <body>
         <table>
-            <form method="post" action="#">
+            <form method="post" action="action_etu.php">
                 <tr>
                     <td>
                         <label>Numéro de carte d'étudiant</label>
