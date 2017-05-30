@@ -13,8 +13,21 @@
         </ul>
         <h1>Etudiant</h1>
         
-        <h4>Ajouter un étudiant</h4>
-        <h4>Visualiser un étudiant</h4>
         
+          <div class="col-md-1"></div>
+  <div class="col-md-4">
+        
+      <p>
+      <a href="etudiant_form.php" class="btn btn-primary btn-lg active" role="button">Ajouter un étudiant</a><br>
+      </p>
+      <p>
+          <a href="#" class="btn btn-primary btn-lg active" role="button">Visualiser un étudiant</a>
+      </p>   
+     
+      
+      
+  </div>
+ 
+
     </body>
 </html>

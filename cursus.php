@@ -13,13 +13,38 @@
         </ul>
         
         <h1>Cursus</h1>
+       
+        <div class="row">
+  <div class="col-md-1"></div>
+  
+  <div class="col-md-3">
+      
+        <p>
+  <button type="button" class="btn btn-primary btn-lg">Ajouter un cursus</button>
+        </p>
         
-        <h4>Ajouter un cursus</h4>
-        <h4>Modifier un cursus</h4>
-        <h4>Dupliquer un cursus</h4>
-        <h4>Editer un cursus</h4>
-        <h4>Importer un cursus</h4>
-        <h4>Exporter un cursus</h4>
+        <p>
+  <button type="button" class="btn btn-primary btn-lg">Modifier un cursus</button>
+        </p>
+        
+        <p>
+  <button type="button" class="btn btn-primary btn-lg">Dupliquer un cursus</button>
+        </p>
+        
+        <p>
+  <button type="button" class="btn btn-primary btn-lg">Editer un cursus</button>
+        </p>
+        
+        <p>
+  <button type="button" class="btn btn-primary btn-lg">Importer un cursus</button>
+        </p>
+        
+        <p>
+  <button type="button" class="btn btn-primary btn-lg">Exporter un cursus</button>
+        </p></div>
+  
+</div>
+        
         
     </body>
 </html>
