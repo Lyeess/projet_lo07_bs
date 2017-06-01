@@ -20,27 +20,27 @@
   <div class="col-md-3">
       
         <p>
-  <button type="button" class="btn btn-primary btn-lg">Ajouter un cursus</button>
+            <a href="ajouter_cursus.php" class="btn btn-primary btn-lg" role="button">Ajouter un cursus</a>
         </p>
         
         <p>
-  <button type="button" class="btn btn-primary btn-lg">Modifier un cursus</button>
+  <a href="etudiant_form.php" class="btn btn-primary btn-lg" role="button">Modifier un cursus</a>
         </p>
         
         <p>
-  <button type="button" class="btn btn-primary btn-lg">Dupliquer un cursus</button>
+  <a href="etudiant_form.php" class="btn btn-primary btn-lg" role="button">Dupliquer un cursus</a>
         </p>
         
         <p>
-  <button type="button" class="btn btn-primary btn-lg">Editer un cursus</button>
+  <a href="etudiant_form.php" class="btn btn-primary btn-lg" role="button">Editer un cursus</a>
         </p>
         
         <p>
-  <button type="button" class="btn btn-primary btn-lg">Importer un cursus</button>
+ <a href="etudiant_form.php" class="btn btn-primary btn-lg" role="button">Importer un cursus</a>
         </p>
         
         <p>
-  <button type="button" class="btn btn-primary btn-lg">Exporter un cursus</button>
+  <a href="etudiant_form.php" class="btn btn-primary btn-lg" role="button">Exporter un cursus</a>
         </p></div>
   
 </div>

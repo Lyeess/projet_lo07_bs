@@ -1,45 +1,47 @@
 <html>
-    <head></head>
+    <head>
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
     <body>
-        <table>
+        <ul class="nav nav-pills col-lg-8 col-lg-offset-2">
+            <li role="presentation"><a href="index.php">Accueil</a></li>
+  <li role="presentation" class="active"><a href="etu.php">Etudiant</a></li>
+  <li role="presentation"><a href="cursus.php">Cursus</a></li>
+  <li role="presentation"><a href="reglement.php">Réglement</a></li>
+        </ul>
+        <h1>Ajouter un étudiant</h1>
+            <div class="container" >
+                <div class="col-lg-8 col-lg-offset-2">
             <form method="post" action="#">
-                <tr>
-                    <td>
+                
+                        <div class="form-group">
                         <label>Numéro de carte d'étudiant</label>
-                    </td>
-                    <td>
                         <input type="text" name="numero"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
+                        </div>
+                        
+                        <div class="form-group">
                         <label>Nom</label>
-                    </td>
-                    <td>
                         <input type="text" name="nom"/>
-                    </td>
-                <tr>
-                    <td>
+                        </div>
+                        
+                        <div class="form-group">
                         <label>Prénom</label>
-                    </td>
-                    <td>
+                  
                         <input type="text" name="prenom"/>
-                    </td>
-                <tr>
-                    <td>
+                        </div>
+                  
+                        <div class="form-group">
                         <label>Admission</label>
-                    </td>
-                    <td>
+                  
                         <select name='admission'>
                             <option>TC</option>
                             <option>BR</option>
-                        </select><br>
-                    </td>
-                <tr>
-                    <td>
+                        </select>
+                        </div>
+                        
+                        <div class="form-group">
                         <label>Filière</label>
-                    </td>
-                    <td>
+                   
                         <select name='filiere'>
                             <option>?</option>
                             <option>MPL</option>
@@ -47,17 +49,17 @@
                             <option>MRI</option>
                             <option>LIB</option>
                         </select>
-                    </td>
-                <tr>
-                    <td></td>
-                    <td>
+                        </div>
+                        
+                         <div class="form-group">
                         <input type="submit"/>
-                    </td>
-                    <td>
+                         </div>
+                         <div class="form-group">
                         <input type="reset"/>
-                    </td>
-                </tr>
+                         </div>
+                  
             </form>
+       </div>
     </body>
     
     

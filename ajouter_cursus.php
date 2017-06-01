@@ -4,7 +4,13 @@
     </head>
     
     <body>
-        
+        <ul class="nav nav-pills col-lg-8 col-lg-offset-2">
+            <li role="presentation"><a href="index.php">Accueil</a></li>
+  <li role="presentation"><a href="etu.php">Etudiant</a></li>
+  <li role="presentation" class="active"><a href="cursus.php">Cursus</a></li>
+  <li role="presentation"><a href="reglement.php">Réglement</a></li>
+        </ul>
+        <h1>Ajouter un cursus</h1>
         <form method="get" action="ajouter_cursus_action.php" >
             <div class="container" >
                 <div class="col-lg-8 col-lg-offset-2">
@@ -77,9 +83,15 @@
                 <label>Crédits obtenus</label>
                 <input type="text"  name="credit"/>
                 </div>
+                    <div class="form-group">
                 <input type="submit">
-               
+                
+                    </div>
+                <div class="form-group">
+                        <input type="reset"/>
+                         
                 </div>
+               
             </div>
             
 

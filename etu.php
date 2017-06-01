@@ -18,10 +18,10 @@
   <div class="col-md-4">
         
       <p>
-      <a href="etudiant_form.php" class="btn btn-primary btn-lg active" role="button">Ajouter un étudiant</a><br>
+        <a href="etudiant_form.php" class="btn btn-primary btn-lg" role="button">Ajouter un étudiant</a>
       </p>
       <p>
-          <a href="#" class="btn btn-primary btn-lg active" role="button">Visualiser un étudiant</a>
+          <a href="#" class="btn btn-primary btn-lg" role="button">Visualiser un étudiant</a>
       </p>   
      
       
