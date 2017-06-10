@@ -1,14 +1,10 @@
 <?php
-try
-{
-$bdd = new PDO('mysql:host=localhost;dbname=projet_lo07;charset=utf8', 'root', '');
-}
-catch(Exception $e)
-{
-die('Erreur : '.$e->getMessage());
-}
-var_dump($_GET);
-$req = $bdd->prepare('INSERT INTO cursus(num_etu, num_sem, nom_sem, nom_ue, cat_ue, affect, sem_utt, profil, result_ue, credit_ue) VALUES(?,?,?,?,?,?,?,?,?,?)');
+require_once './include/MyPDO.class.php';
+
+$PDOInstance = MyPDO::getInstance();
+
+
+$req = $PDOInstance->prepare('INSERT INTO cursus(num_etu, num_sem, nom_sem, nom_ue, cat_ue, affect, sem_utt, profil, result_ue, credit_ue) VALUES(?,?,?,?,?,?,?,?,?,?)');
 $req->execute([
 $_GET['numEtu'],
 $_GET['numSem'],
@@ -42,3 +38,5 @@ if (!$result) {
 }
 else ('Requête réalisée');
 ?>
+ * **/
+ 
