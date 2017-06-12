@@ -3,7 +3,7 @@
 require_once './include/WebPage.class.php';
 $webPage = new WebPage();
 $webPage->ajouterBody(
-        <<<HTML
+    <<<HTML
 <h1>Ajouter un étudiant</h1>
 <form method = "post" action = "ajouter_etudiant_action.php">
     <div class="form-group">

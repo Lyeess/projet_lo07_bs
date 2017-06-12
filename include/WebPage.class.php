@@ -25,6 +25,7 @@ class WebPage {
 
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -53,7 +54,6 @@ class WebPage {
                 <li><a href="ajouter_etudiant_form.php">Ajouter un étudiant</a></li>
             </ul>
         </li>
-        <li><a href="cursus.php">Cursus</a></li>
         <li><a href="reglement.php">Réglement</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
